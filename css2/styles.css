@@ -99,7 +99,7 @@ blockquote p.name { font-style:normal; color:#ffffff ; letter-spacing:0; font-we
 .button {  border-radius:30px; background:rgba(0,0,0,0.05); padding:10px 25px 14px; line-height:1; font-size:14px; display:inline-block; margin-bottom:10px; }
 .button:hover { background:rgba(0,0,0,0.1);}
 
-.signature { background:url(../images/signature.png) center no-repeat; background-size:185px 35px; width:185px; height:35px; position:relative; display:inline-block; margin-bottom:10px; }
+.signature { background:url(images/signature.png) center no-repeat; background-size:185px 35px; width:185px; height:35px; position:relative; display:inline-block; margin-bottom:10px; }
 /* End Typography
 --------------------------------------------------------------------------------------------------------*/
 
@@ -107,7 +107,7 @@ blockquote p.name { font-style:normal; color:#ffffff ; letter-spacing:0; font-we
 /* =4. Headings
 --------------------------------------------------------------------------------------------------------*/
 h1#logo { display:block; position:relative; margin:0; margin-top:40px; margin-bottom:0px; text-align:center; font-size:0; }
-h1#logo a { display:inline-block; background:url(../images/bg-logo@2x.png) center no-repeat; background-size:250px 59px; width:250px; height:59px; text-indent:-9999px; }
+h1#logo a { display:inline-block; background:url(images/bg-logo@2x.png) center no-repeat; background-size:250px 59px; width:250px; height:59px; text-indent:-9999px; }
 .tagline { text-align:center; margin-bottom:20px; margin-top:-5px; position:relative;  }
 .tagline p.small { font-size:12px !important; padding:0 15px; display:inline-block; text-transform:none; }
 .tagline p.small span { background:#000; z-index:1; position:relative; padding:0 5px 0 7px; }
@@ -159,7 +159,7 @@ h6 span { background:#000; z-index:1; position:relative; padding:0 5px 0 6px; }
 /* =6. Main Content
 --------------------------------------------------------------------------------------------------------*/
 #header { position:fixed; z-index:155; width:100%; -webkit-transform: translateZ(0); background:#fff; }
-#content { width:100%; position:relative; /*z-index:55;*/ height:auto; padding-top:60px; background:#000; }
+#content { width:100%; position:relative; /*z-index:55;*/ height:auto; padding-top:60px; background:#100028; }
 .container { padding:0px; position:relative; padding-top:10px; padding-bottom:10px; margin:0 auto; }
 header .container, footer .container { padding:0; margin:0 auto; }
 #container { margin-left:10px; padding-top:30px; }
@@ -251,22 +251,22 @@ a:hover .stats i.fa { color:#ffffff ; }
 .circled i.fa { vertical-align:middle; display:table-cell; font-size:18px; }
 
 .icons { height:30px; width:30px; margin:0 auto; margin-bottom:15px; float:none; opacity:0.85; }
-.icons.winner { background:url(../images/icons/trophy.png) no-repeat center; background-size:30px 30px; }
-.icons.like { background:url(../images/icons/thumbs-up-2.png) center no-repeat; background-size:30px 30px; }
-.icons.register { background:url(../images/icons/register-machine.png) center no-repeat; background-size:30px 30px; }
-.icons.tripod { background:url(../images/icons/camera-tripod.png) center no-repeat; background-size:30px 30px; }
-.icons.camera { background:url(../images/icons/camera-4.png) center no-repeat; background-size:30px 30px; }
-.icons.user { background:url(../images/icons/camera-user.png) center no-repeat; background-size:30px 30px; }
-.icons.pencil { background:url(../images/icons/pencil-ruler.png) center no-repeat; background-size:30px 30px; }
-.icons.vector { background:url(../images/icons/vector-line-curve.png) center no-repeat; background-size:30px 30px; }
-.icons.home { background:url(../images/icons/home-4.png) center no-repeat; background-size:30px 30px; }
-.icons.television { background:url(../images/icons/television.png) center no-repeat; background-size:30px 30px; }
-.icons.building { background:url(../images/icons/building-7.png) center no-repeat; background-size:30px 30px; }
+.icons.winner { background:url(images/icons/trophy.png) no-repeat center; background-size:30px 30px; }
+.icons.like { background:url(images/icons/thumbs-up-2.png) center no-repeat; background-size:30px 30px; }
+.icons.register { background:url(images/icons/register-machine.png) center no-repeat; background-size:30px 30px; }
+.icons.tripod { background:url(images/icons/camera-tripod.png) center no-repeat; background-size:30px 30px; }
+.icons.camera { background:url(images/icons/camera-4.png) center no-repeat; background-size:30px 30px; }
+.icons.user { background:url(images/icons/camera-user.png) center no-repeat; background-size:30px 30px; }
+.icons.pencil { background:url(images/icons/pencil-ruler.png) center no-repeat; background-size:30px 30px; }
+.icons.vector { background:url(images/icons/vector-line-curve.png) center no-repeat; background-size:30px 30px; }
+.icons.home { background:url(images/icons/home-4.png) center no-repeat; background-size:30px 30px; }
+.icons.television { background:url(images/icons/television.png) center no-repeat; background-size:30px 30px; }
+.icons.building { background:url(images/icons/building-7.png) center no-repeat; background-size:30px 30px; }
 
 .icons.big { height:36px; width:36px; }
-.icons.design { background:url(../images/icons/design-mug.png) center no-repeat; background-size:36px 36px; }
-.icons.diamond { background:url(../images/icons/diamond-ring.png) center no-repeat; background-size:36px 36px; }
-.icons.movie { background:url(../images/icons/movie-clapboard.png) center no-repeat; background-size:36px 36px; }
+.icons.design { background:url(images/icons/design-mug.png) center no-repeat; background-size:36px 36px; }
+.icons.diamond { background:url(images/icons/diamond-ring.png) center no-repeat; background-size:36px 36px; }
+.icons.movie { background:url(images/icons/movie-clapboard.png) center no-repeat; background-size:36px 36px; }
 /* End Icons
 --------------------------------------------------------------------------------------------------------*/
 
@@ -283,23 +283,34 @@ img { width:100%; display: block; max-width: 100%; z-index:9; -webkit-box-shadow
 .images { display:block; position:relative; opacity:1; }
 a:hover .images { opacity:0.6; }
 
-.background-image1 { background:url(../images/photo03b.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
-.background-image15 { background:url(../images/hero_3.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
-.background-image16 { background:url(../images/arch_CLOSE.png) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
-.background-image17 { background:url(../images/img_ravalcole.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
-.background-image2 { background:url(../images/photo09b.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
-.background-image3 { background:url(../images/photo01b.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
-.background-image4 { background:url(../images/photo08b.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
-.background-image5 { background:url(../images/photo04b.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
-.background-image6 { background:url(../images/photo02b.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
-.background-image7 { background:url(../images/photo05b.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
-.background-image8 { background:url(../images/photo06b.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
-.background-image9 { background:url(../images/photo07b.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
-.background-image10 { background:url(../images/photo10b.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
-.background-image11 { background:url(../images/photo11b.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
-.background-image12 { background:url(../images/photo01.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
-.background-image13 { background:url(../images/about.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
-.background-image14 { background:url(../images/photo14b.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image1 { background:url(/images/photo03b.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image15 { background:url(/images/hero_3.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image16 { background:url(/images/arch_CLOSE.png) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image17 { background:url(/images/img_ravalcole.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image2 { background:url(/images/photo09b.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image3 { background:url(/images/photo01b.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image4 { background:url(/images/photo08b.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image5 { background:url(/images/photo04b.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image6 { background:url(/images/photo02b.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image7 { background:url(/images/photo05b.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image8 { background:url(/images/photo06b.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image9 { background:url(/images/photo07b.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image10 { background:url(/images/photo10b.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image11 { background:url(/images/photo11b.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image12 { background:url(/images/photo01.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image13 { background:url(/images/about.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image14 { background:url(/images/photo14b.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image18 { background:url(/images/18.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image19 { background:url(/images/19.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image20 { background:url(/images/20.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image21 { background:url(/images/21.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image22 { background:url(/images/22.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image23 { background:url(/images/23.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image24 { background:url(/images/24.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image25 { background:url(/images/25.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image26 { background:url(/images/26.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image27 { background:url(/images/27.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.background-image28 { background:url(/images/28.jpg) no-repeat center; height:100%; display:block; width:100%; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
 
 .images.alignleft { width:40%; margin:7px 30px 17px 0; z-index:1; position:relative }
 
@@ -400,7 +411,7 @@ p.time { font-size:12px; font-style:italic; color:#888; }
 .comment-reply-button-column a { margin:5px 0px 0px 0px; font-size:9px; border-radius:30px; background:rgba(0,0,0,0.05); padding:9px 23px 11px; line-height:1; display:inline-block; text-transform:uppercase; font-weight:400; letter-spacing:2px; font-family:"Oswald", Arial, Helvetica, sans-serif;}
 .comment-reply-button-column a:hover { background:rgba(0,0,0,0.1); }
 .comment-form-wrapper { padding: 39px 0 0px 0; position: relative; border-top: 1px dotted #eee; }
-.comment-form-icon-wrapper { position: relative; display: block; height: 55px; width: 55px; border:0 none; border:1px solid #d8d8d8; cursor:pointer; border-radius:51%; float:left; margin-right:30px; background:url(../images/icons/upload-4.png) center no-repeat; background-size:24px 24px; }
+.comment-form-icon-wrapper { position: relative; display: block; height: 55px; width: 55px; border:0 none; border:1px solid #d8d8d8; cursor:pointer; border-radius:51%; float:left; margin-right:30px; background:url(images/icons/upload-4.png) center no-repeat; background-size:24px 24px; }
 .comment-form { text-align:left; padding-left:85px; width:100%; }
 .comment-form.contact-form input { float:left; margin-right:10px; }
 input.last { margin-right:0 !important }
